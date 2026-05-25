@@ -4,7 +4,7 @@
 
 Stop trying on one thing at a time. Upload a selfie and design **two full custom makeovers** with hair, beard, and makeup — then get a smart **AI Surprise** recommendation.
 
-<img width="1101" height="816" alt="{BBCFCE44-648B-4615-B621-45103D569181}" src="https://github.com/user-attachments/assets/e53d3e17-b560-4aa7-8b5d-b2435739fe8a" />
+<img width="364" height="270" alt="{BBCFCE44-648B-4615-B621-45103D569181}" src="https://github.com/user-attachments/assets/e53d3e17-b560-4aa7-8b5d-b2435739fe8a" />
 
 
 ---
