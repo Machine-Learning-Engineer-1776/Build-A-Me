@@ -1,0 +1,2 @@
+# .env.example
+YOUCAM_API_KEY=sk-h8RZQvCWW03ZM81wBmnO42kC4PgjdOlPImGMwzvXbexlQNyiSE_nIBqd-x47pe80
