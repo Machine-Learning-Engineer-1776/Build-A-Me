@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+env/
+
+# Environment variables (secrets)
+.env
+*.env
+
+# Temporary folders
+uploads/
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
