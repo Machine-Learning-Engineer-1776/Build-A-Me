@@ -4,12 +4,13 @@
 
 Stop trying on one thing at a time. Upload a selfie and design **two full custom makeovers** with hair, beard, and makeup — then get a smart **AI Surprise** recommendation.
 
-![Build-A-ME Demo](screenshots/main-screen.png)
+<img width="1101" height="816" alt="{BBCFCE44-648B-4615-B621-45103D569181}" src="https://github.com/user-attachments/assets/e53d3e17-b560-4aa7-8b5d-b2435739fe8a" />
+
 
 ---
 
 ### ✨ Live Demo
-**http://YOUR-STATIC-IP:8501**  
+**http://44.254.44.122:8501/**  
 *(Scan the QR code at the hackathon!)*
 
 ---
