@@ -15,10 +15,11 @@ Stop trying on one thing at a time. Upload a selfie and design **two full custom
 
 ---
 
-### 🎯 Project Goal
-As a Product Manager with 15+ years of experience transitioning into AI products, I built **Build-A-ME** to explore real-world AI integration, user experience design, and delivering delightful consumer AI experiences.
+### 🎯 The Problem It Solves
 
-While most virtual try-on tools only let you test one item (hair or makeup), this app lets users build **complete looks** and get an intelligent AI surprise.
+Most virtual try-on tools force users to test one hairstyle, beard, or makeup look at a time. This creates a fragmented and frustrating experience.
+
+**Build-A-ME** changes that. It lets users design **two complete virtual makeovers** in one session — combining hair, beard, and makeup — and delivers a smart **AI Surprise** recommendation as a third option.
 
 ---
 
