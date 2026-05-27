@@ -43,9 +43,12 @@ Most virtual try-on tools force users to test one hairstyle, beard, or makeup lo
 ---
 
 ### 📸 Screenshots
+***Visual Guide***
+<img width="611" height="222" alt="{24C46411-F850-4687-BB18-4D1456142854}" src="https://github.com/user-attachments/assets/6523b7b9-84fc-440e-90e8-919dd58dee34" />
 
-![Visual Guide](screenshots/visual-guide.png)
-![Collage Output](screenshots/collage-example.png)
+**Collage Output**
+<img width="399" height="178" alt="{3250F0AC-9F28-4739-B15C-183E5A536124}" src="https://github.com/user-attachments/assets/2a011f24-d69c-406b-9ffb-7f090d81461e" />
+
 
 ---
 
