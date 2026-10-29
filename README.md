@@ -2,7 +2,7 @@
 
 **True Virtual Makeover Experience**
 
-Stop trying on one thing at a time. Upload a selfie and design **two full custom makeovers** with hair, beard, and makeup — then get a smart **AI Surprise** recommendation.
+Stop trying on one thing at a time. A Streamlit hackathon app: upload a selfie, design **two full custom makeovers** (hair, beard and makeup) with the YouCam AI API, and get a third **Surprise** look.
 
 <img width="364" height="270" alt="{BBCFCE44-648B-4615-B621-45103D569181}" src="https://github.com/user-attachments/assets/e53d3e17-b560-4aa7-8b5d-b2435739fe8a" />
 
@@ -10,8 +10,7 @@ Stop trying on one thing at a time. Upload a selfie and design **two full custom
 ---
 
 ### ✨ Live Demo
-**http://44.254.44.122:8501/**  
-*(Scan the QR code at the hackathon!)*
+**http://44.254.44.122:8501/** (may be offline when the server isn't running)
 
 ---
 
@@ -19,7 +18,7 @@ Stop trying on one thing at a time. Upload a selfie and design **two full custom
 
 Most virtual try-on tools force users to test one hairstyle, beard, or makeup look at a time. This creates a fragmented and frustrating experience.
 
-**Build-A-ME** changes that. It lets users design **two complete virtual makeovers** in one session — combining hair, beard, and makeup — and delivers a smart **AI Surprise** recommendation as a third option.
+**Build-A-ME** changes that. It lets users design **two complete virtual makeovers** in one session — combining hair, beard, and makeup — and adds a **Surprise** look as a third option.
 
 ---
 
@@ -27,7 +26,7 @@ Most virtual try-on tools force users to test one hairstyle, beard, or makeup lo
 - Upload selfie with automatic orientation correction
 - Live template galleries for Hair, Beard, and Makeup
 - Build **two custom full makeovers**
-- Intelligent **AI Surprise** third look
+- **Surprise** third look: a random combination of the available hair, beard and makeup templates
 - Real-time progress tracking with calm UX
 - Beautiful downloadable collage with style breakdown
 - Powered by YouCam AI API
@@ -37,7 +36,8 @@ Most virtual try-on tools force users to test one hairstyle, beard, or makeup lo
 ### 📝 How It Works
 1. Upload a clear selfie
 2. Design Look 1 and Look 2 (mix & match styles)
-3. Receive 3 complete makeovers — your two choices + 1 AI Surprise
+3. Receive 3 complete makeovers — your two choices + 1 Surprise look
+4. Download a collage of all looks
 
 ---
 
@@ -52,6 +52,17 @@ Most virtual try-on tools force users to test one hairstyle, beard, or makeup lo
 - **AI Engine**: YouCam Makeup API (V2) – templates, file upload, async task polling
 - **Image Processing**: PIL (Pillow)
 - **Deployment**: AWS Lightsail + Systemd (persistent service)
+
+---
+
+### ▶️ Run Locally
+```bash
+pip install streamlit requests pillow
+cp .env.example .env        # then set YOUCAM_API_KEY (YouCam / Perfect Corp API key)
+export YOUCAM_API_KEY=...   # app.py reads the key from the environment
+streamlit run app.py
+```
+Note: `requirements.txt` currently lists FastAPI packages; the app itself runs on Streamlit.
 
 ---
 
