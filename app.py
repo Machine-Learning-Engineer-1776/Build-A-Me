@@ -67,7 +67,17 @@ Tired of trying on one hairstyle or lipstick at a time?
 """)
 
 # ====================== CONFIG ======================
-API_KEY = "***REMOVED***"
+# Load variables from a local .env file if python-dotenv is installed (optional)
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
+API_KEY = os.getenv("YOUCAM_API_KEY")
+if not API_KEY:
+    st.error("YOUCAM_API_KEY is not set. Add it to your environment or a .env file (see .env.example).")
+    st.stop()
 BASE_URL = "https://yce-api-01.makeupar.com"
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 
